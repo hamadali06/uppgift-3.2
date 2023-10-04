@@ -12,9 +12,9 @@ namespace uppgift
             {
                 case "j":
                     Console.Write("Hur gammal är du? ");
-                    int age = Convert.ToInt32(Console.ReadLine());
+                    int ålder = Convert.ToInt32(Console.ReadLine());
 
-                    if (age < 22)
+                    if (ålder < 22)
                     {
                         Console.WriteLine("Vi vill gärna anställa dig.");
                     }
